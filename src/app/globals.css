@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-inter-tight: 'Inter Tight', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #fff;
+    --foreground: #212121;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter-tight)
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+@keyframes testimonials-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes testimonials-scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-testimonials {
+  animation: testimonials-scroll 60s linear infinite;
+}
+
+.animate-testimonials-reverse {
+  animation: testimonials-scroll-reverse 60s linear infinite;
+}
+
+.animate-testimonials:hover,
+.animate-testimonials-reverse:hover {
+  animation-play-state: paused;
+}
+
+.text-gradient-dark-blue {
+  background: linear-gradient(to bottom, #080035, #40C2FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+h2 {
+  @apply text-[30px] lg:text-[48px] lg:leading-tight font-semibold text-[#212121];
+}
+.normal{
+  @apply text-[16px] lg:text-[18px] tracking-tight;
+}
+.sub-tittle{
+  @apply text-[20px] lg:text-[24px] tracking-tight font-bold text-[#EFEFEF];
+}
