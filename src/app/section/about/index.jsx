@@ -16,8 +16,8 @@ export default function About() {
   return (
     <div className="container mx-auto text-[#212121] py-16 px-4" id="about">
       <div className="text-center flex flex-col gap-8">
-        <TagLabel text="About Zentra" />
-        <h2>What does Zentra do?</h2>
+        <TagLabel text="About INV.AI" />
+        <h2>What does Investors ai do?</h2>
         <div className="grid grid-cols-12 gap-8 lg:mt-8 items-center">
           <div className="col-span-12 lg:col-span-6 space-y-6 lg:space-y-10 text-left">
             <h3 className="text-[24px] md:text-[30px] font-semibold">

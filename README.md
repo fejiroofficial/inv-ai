@@ -1,4 +1,4 @@
-Next.js powered Zentra template for startups by DesignOrah
+Next.js powered Investors AI template for startups by DesignOrah
 
 npm run dev
 # or

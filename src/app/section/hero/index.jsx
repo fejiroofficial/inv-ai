@@ -28,7 +28,7 @@ const heroData = [
 
 export default function Hero() {
   return (
-    <main className="flex flex-col justify-between flex-1 items-center text-center pb-16 px-6 lg:px-0 lg:w-[90%] md:w-full container lg:mx-12 mx-auto">
+    <main className="flex flex-col justify-between flex-1 items-center text-center pb-16 px-6 lg:px-0 lg:w-[90%] md:w-full container lg:mx-12 mx-auto pt-24 md:pt-26 lg:pt-20">
       <div className="flex flex-col items-center justify-center gap-6">
         <div className="flex flex-col items-center gap-2">
           <h1 className="text-[40px] md:text-[56px] font-bold max-w-[750px] leading-tight">

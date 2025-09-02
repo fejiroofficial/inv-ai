@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Zentra",
-  description: "Grow better with CRM platform",
+  title: "inv.ai",
+  description: "Grow better with Investors AI",
 };
 
 export default function RootLayout({ children }) {
